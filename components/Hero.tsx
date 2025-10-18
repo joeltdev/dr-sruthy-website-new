@@ -41,7 +41,10 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-4 sm:mt-8 md:mt-8 lg:mt-3 text-primary-700 font-medium">Consultant Obstetrician & Gynecologist</p>
-          <p className="mt-2 sm:mt-3 md:mt-4 lg:mt-1 text-slate-600 max-w-none lg:max-w-prose text-[16px] md:text-[18px] lg:text-[19px] lg:leading-8 font-normal">Specialist in Laparoscopic Surgery, High-Risk Pregnancy Care, and Women’s Health.</p>
+          <p className="mt-2 sm:mt-3 md:mt-4 lg:mt-1 text-slate-600 max-w-none lg:max-w-prose text-[15px] md:text-[17px] lg:text-[18px] lg:leading-8 font-normal">Specialist in Laparoscopic Surgery, High-Risk Pregnancy Care, and Women’s Health.</p>
+          <p className="mt-4 sm:mt-2 text-slate-700 max-w-none lg:max-w-prose text-[14px] md:text-[16px] lg:text-[17px] leading-relaxed">
+            Dr. Sruthy Jose is an experienced Obstetrician and Gynecologist based in Thiruvananthapuram, Kerala, with over a decade of clinical experience. She provides compassionate, comprehensive care to women at every stage of life.
+          </p>
 
           <div className="mt-6 sm:mt-8 md:mt-7 lg:mt-5 flex flex-wrap items-center gap-2.5">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-white ring-1 ring-slate-200 px-3 py-1 text-xs text-slate-700">
