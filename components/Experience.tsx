@@ -10,7 +10,7 @@ export default function Experience() {
         <div className="w-full max-w-3xl md:max-w-4xl mx-auto">
           <div>
             <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold text-slate-900 text-left">Professional Experience</h2>
-            <p className="mt-2 text-slate-600">Key roles with responsibilities and focus areas.</p>
+            <p className="mt-2 text-slate-600 text-sm sm:text-base">Key roles with responsibilities and focus areas.</p>
           </div>
           <div className="mt-6 md:mt-8 lg:mt-8 lg:grid lg:grid-cols-[1fr,18rem] lg:gap-8 lg:items-start">
             {/* Right-aligned feature image above timeline */}

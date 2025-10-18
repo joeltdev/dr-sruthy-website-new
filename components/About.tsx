@@ -12,13 +12,13 @@ export default function About() {
       </div>
       <div className="container-p">
         <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 pl-0 sm:pl-6 md:pl-8">About Dr. Sruthy Jose</h2>
-        <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 md:gap-6 items-stretch">
+        <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 items-stretch">
           {/* Text card (left) */}
-          <div className="group relative overflow-hidden rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-md p-5 md:p-6 lg:p-8 h-full min-h-[360px] md:min-h-[400px] lg:min-h-[420px] flex flex-col justify-center gap-5 shadow-sm transition-all">
-            <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden>
-              <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-primary-100/50 blur-2xl" />
+          <div className="group relative overflow-hidden rounded-3xl border border-white/60 bg-white/70 backdrop-blur-xl p-6 md:p-8 h-full min-h-[380px] md:min-h-[420px] lg:min-h-[460px] flex flex-col justify-center gap-5 shadow-md ring-1 ring-black/5 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5">
+            <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300" aria-hidden>
+              <div className="absolute -right-14 -top-14 h-32 w-32 rounded-full bg-primary-100/60 blur-3xl" />
             </div>
-            <span className="self-start inline-flex items-center gap-2 rounded-full border border-primary-200/60 bg-primary-50/70 ring-1 ring-primary-100/60 px-3 py-1 text-xs font-medium text-primary-700">
+            <span className="self-start inline-flex items-center gap-2 rounded-full border border-primary-200/60 bg-primary-50/80 ring-1 ring-primary-200/70 shadow-sm px-3 py-1.5 text-xs font-medium text-primary-700">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 2l3 7l7 3l-7 3l-3 7l-3-7l-7-3l7-3z"/></svg>
               Personalized Women’s Care
             </span>
@@ -46,7 +46,7 @@ export default function About() {
               </li>
               <li className="inline-flex items-center gap-2 text-slate-700 text-sm">
                <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-violet-100 text-violet-700 ring-1 ring-violet-200/70">
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+ <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     {/* This path creates the upward-curving (happy) mouth */}
     <circle cx="12" cy="12" r="10"/>
     <path d="M8 14s1.5 2 4 2s4-2 4-2"/> 
@@ -66,14 +66,14 @@ export default function About() {
           </div>
 
           {/* Image card (right) */}
-          <div className="group relative overflow-hidden rounded-2xl h-full min-h-[360px] md:min-h-[400px] lg:min-h-[420px]">
-            <div className="relative w-full h-full rounded-2xl overflow-hidden ring-1 ring-white/60 transition-colors">
+          <div className="group relative overflow-hidden rounded-3xl h-full min-h-[380px] md:min-h-[420px] lg:min-h-[460px] shadow-md ring-1 ring-black/5">
+            <div className="relative w-full h-full rounded-3xl overflow-hidden ring-1 ring-white/70 transition-colors">
               <Image
                 src="/doctor-photos/SAN01647 (2).jpg"
                 alt="Dr. Sruthy Jose"
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
-                className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
                 priority
               />
             </div>

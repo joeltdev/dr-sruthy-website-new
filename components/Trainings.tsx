@@ -62,7 +62,7 @@ export default function Trainings() {
         <div className="w-full max-w-3xl md:max-w-5xl mx-auto">
           <div>
             <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold text-slate-900 text-left">Trainings & CME Participation</h2>
-            <p className="mt-2 text-slate-600">Selected workshops, courses, and academic activities.</p>
+            <p className="mt-2 text-slate-600 text-sm sm:text-base">Selected workshops, courses, and academic activities.</p>
           </div>
 
           <div className="mt-8 sm:mt-10">

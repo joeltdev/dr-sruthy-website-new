@@ -41,7 +41,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-4 sm:mt-8 md:mt-8 lg:mt-3 text-primary-700 font-medium">Consultant Obstetrician & Gynecologist</p>
-          <p className="mt-2 sm:mt-3 md:mt-4 lg:mt-1 text-slate-600 max-w-none lg:max-w-prose text-[16px] md:text-[17px] lg:text-[18px] lg:leading-8 font-normal">Specialist in Laparoscopic Surgery, High-Risk Pregnancy Care, and Women’s Health.</p>
+          <p className="mt-2 sm:mt-3 md:mt-4 lg:mt-1 text-slate-600 max-w-none lg:max-w-prose text-[16px] md:text-[18px] lg:text-[19px] lg:leading-8 font-normal">Specialist in Laparoscopic Surgery, High-Risk Pregnancy Care, and Women’s Health.</p>
 
           <div className="mt-6 sm:mt-8 md:mt-7 lg:mt-5 flex flex-wrap items-center gap-2.5">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-white ring-1 ring-slate-200 px-3 py-1 text-xs text-slate-700">
@@ -54,23 +54,23 @@ export default function Hero() {
             </span>
           </div>
 
-          <div className="mt-7 sm:mt-12 md:mt-10 lg:mt-6 flex flex-wrap items-center justify-start gap-2.5">
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 ring-1 ring-emerald-200 px-3 py-1 text-xs text-emerald-700">
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    {/* This is the new, happy/smiling face icon code */}
-    <circle cx="12" cy="12" r="10"/>
-    <path d="M8 14s1.5 2 4 2s4-2 4-2"/> 
-    <line x1="9" y1="9" x2="9.01" y2="9"/>
-    <line x1="15" y1="9" x2="15.01" y2="9"/>
-  </svg>
-  Women’s Health
-</span>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-sky-50 ring-1 ring-sky-200 px-3 py-1 text-xs text-sky-700">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16z"/><path d="M12 6v6l3 3"/></svg>
+          <div className="hidden sm:mt-12 md:mt-10 lg:mt-6 sm:flex flex-wrap items-center justify-start gap-2.5">
+            <span className="inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-emerald-50 ring-1 ring-emerald-200 px-2 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-xs text-emerald-700 whitespace-nowrap">
+              <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                {/* This is the new, happy/smiling face icon code */}
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 14s1.5 2 4 2s4-2 4-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+              Women’s Health
+            </span>
+            <span className="inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-sky-50 ring-1 ring-sky-200 px-2 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-xs text-sky-700 whitespace-nowrap">
+              <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 20a8 8 0 1 0 0-16a8 8 0 0 0 0 16z"/><path d="M12 6v6l3 3"/></svg>
               Laparoscopy
             </span>
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-violet-50 ring-1 ring-violet-200 px-3 py-1 text-xs text-violet-700">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 7c-4 0-6 3-8 9c-2-3-4-5-8-5"/><circle cx="4" cy="11" r="2"/><circle cx="20" cy="7" r="2"/></svg>
+            <span className="inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-violet-50 ring-1 ring-violet-200 px-2 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-xs text-violet-700 whitespace-nowrap">
+              <svg className="w-3 h-3 sm:w-3.5 sm:h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 7c-4 0-6 3-8 9c-2-3-4-5-8-5"/><circle cx="4" cy="11" r="2"/><circle cx="20" cy="7" r="2"/></svg>
               High-Risk Pregnancy
             </span>
           </div>
@@ -94,6 +94,28 @@ export default function Hero() {
             </a>
           </div>
 
+        </motion.div>
+
+        {/* Mobile-only hero image (non-transparent, rounded, like About image) */}
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="order-2 block md:hidden mt-4"
+        >
+          <div className="group relative overflow-hidden rounded-2xl h-[58vh] min-h-[400px] max-h-[560px] sm:h-[62vh] sm:min-h-[440px] sm:max-h-[600px]">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden ring-1 ring-white/60 shadow-md">
+              <Image
+                src="/doctor-photos/SAN01581.JPG"
+                alt="Dr. Sruthy Jose"
+                fill
+                sizes="100vw"
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
         </motion.div>
 
         <motion.div

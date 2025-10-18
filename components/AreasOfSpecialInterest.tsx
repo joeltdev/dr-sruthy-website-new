@@ -85,7 +85,7 @@ export default function AreasOfSpecialInterest() {
             <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">
               Areas of Special Interest
             </h2>
-            <p className="mt-2 text-slate-600 max-w-2xl">
+            <p className="mt-2 text-slate-600 max-w-2xl text-sm sm:text-base">
               Key focus areas that guide clinical practice and patient care.
             </p>
           </div>

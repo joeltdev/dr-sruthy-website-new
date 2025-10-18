@@ -173,6 +173,16 @@ export default function Header() {
                   <polyline points="9 18 15 12 9 6" />
                 </svg>
               </a>
+              <a
+                onClick={(e) => handleNavClick(e, 'map')}
+                href="#map"
+                className="group flex items-center justify-between w-full px-6 py-5 text-2xl sm:text-3xl font-semibold text-slate-900 border-t border-slate-200 hover:text-primary-700 active:text-primary-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-300/60 transition-colors no-underline hover:no-underline"
+              >
+                <span>Map</span>
+                <svg className="h-6 w-6 text-slate-400 group-hover:text-primary-600 group-active:text-primary-700 transform transition-transform duration-200 ease-out group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6" />
+                </svg>
+              </a>
             </nav>
 
             <div className="mt-auto" />
