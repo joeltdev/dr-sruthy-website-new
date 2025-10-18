@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.25);
+}
+
+html, body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Typography */
+body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.h-serif { font-family: var(--font-lora), Georgia, ui-serif, serif; }
+
+@layer base {
+  h1 {
+    @apply font-semibold tracking-tight text-slate-900;
+  }
+  h2 {
+    @apply font-semibold tracking-tight text-slate-900;
+  }
+  h3 {
+    @apply font-semibold tracking-tight text-slate-900;
+  }
+  h4 {
+    @apply font-semibold tracking-tight text-slate-900;
+  }
+  p {
+    @apply text-slate-700 leading-relaxed;
+  }
+  small {
+    @apply text-slate-500;
+  }
+  strong {
+    @apply text-slate-900;
+  }
+  a {
+    @apply text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-primary-400 hover:text-slate-900 transition;
+  }
+}
+
+/* Glassmorphism */
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+/***** Pastel gradient helpers *****/
+.bg-soft {
+  background-image:
+    radial-gradient(900px 500px at 10% 0%, theme('colors.pastel.blue') 0%, transparent 78%),
+    radial-gradient(800px 440px at 90% 10%, theme('colors.pastel.lavender') 0%, transparent 80%),
+    radial-gradient(700px 380px at 20% 90%, theme('colors.primary.50') 0%, transparent 88%),
+    radial-gradient(600px 340px at 85% 85%, theme('colors.pastel.rose') 0%, transparent 86%),
+    linear-gradient(to bottom, white, theme('colors.lavender.50'));
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+.container-p {
+  @apply w-full max-w-full sm:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.input {
+  @apply w-full rounded-xl border border-slate-200 bg-white/80 focus:bg-white px-4 py-3 text-sm placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-300 transition;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-xl bg-primary-600 text-white px-5 py-3 text-sm font-medium hover:bg-primary-700 active:bg-primary-800 focus:outline-none focus:ring-2 focus:ring-primary-300 transition;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-lavender-100 text-lavender-800 px-3 py-1 text-xs font-medium;
+}
+
+.card {
+  @apply rounded-2xl border border-primary-100 bg-primary-50 transition-shadow;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+
+.card:hover {
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.10), 0 2px 12px rgba(15, 23, 42, 0.06);
+}
