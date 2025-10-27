@@ -27,6 +27,28 @@ export default function Experience() {
             {/* Two-column list */}
             <div className="mt-6 md:mt-6 lg:mt-0 order-2 lg:order-1">
               <div className="space-y-8">
+                <motion.div
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.45 }}
+                  className="relative pl-8 md:pl-0 md:grid md:grid-cols-[11rem,1fr] lg:grid-cols-[12rem,1fr] md:gap-6"
+                >
+                  <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
+                  <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
+                  <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">2023 – Present</div>
+                  <div>
+                    <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
+                      <span className="block">Senior Consultant (Obstetrics & Gynaecology)</span>
+                      <span className="block text-slate-700 font-normal">Cosmopolitan Hospital, Trivandrum</span>
+                    </h3>
+                    <ul className="mt-2 md:mt-3 space-y-1 md:space-y-2 text-[15px] md:text-base lg:text-base">
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Provides comprehensive obstetric and gynecologic care</li>
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Focus on minimally invasive gynecologic surgery</li>
+                    </ul>
+                  </div>
+                </motion.div>
+
                 {/* Role 1 */}
                 <motion.div
                   initial={{ opacity: 0, y: 12 }}

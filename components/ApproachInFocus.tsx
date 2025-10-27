@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function ApproachInFocus() {
   return (
     <section className="section bg-soft pt-8 pb-10 sm:pt-10 sm:pb-12 md:pt-12 md:pb-14 lg:pt-16 lg:pb-20 relative overflow-hidden">
-      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-br from-primary-50 via-pastel-lavender/60 to-pastel-blue/40" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-br from-primary-50 via-pastel-azure/60 to-pastel-blue/40" />
       <div className="container-p">
         <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">
           Our Approach in Focus

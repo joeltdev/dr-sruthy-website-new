@@ -20,7 +20,7 @@ export default function Contact() {
     <section id="contact" className="section bg-soft relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute -top-24 sm:-top-28 md:-top-32 right-0 h-56 sm:h-64 md:h-72 w-56 sm:w-64 md:w-72 rounded-full bg-gradient-to-br from-primary-100/90 to-sky-100/80 blur-3xl" />
-        <div className="absolute -bottom-24 sm:-bottom-28 md:-bottom-32 -left-10 h-48 sm:h-56 md:h-64 w-48 sm:w-56 md:w-64 rounded-full bg-gradient-to-tr from-rose-100/85 to-primary-100/75 blur-3xl" />
+        <div className="absolute -bottom-24 sm:-bottom-28 md:-bottom-32 -left-10 h-48 sm:h-56 md:h-64 w-48 sm:w-56 md:w-64 rounded-full bg-gradient-to-tr from-sky-100/85 to-primary-100/75 blur-3xl" />
       </div>
       <div className="container-p grid md:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-7 md:gap-8 items-stretch">
         {/* Info card (left) */}
@@ -52,7 +52,7 @@ export default function Contact() {
             </div>
 
             <div className="inline-flex items-center gap-3 py-3 text-slate-700">
-              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-violet-100 text-violet-700 ring-1 ring-violet-200/60">
+              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200/60">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m22 6l-10 7L2 6"/></svg>
               </span>
               <p>info@example.com</p>

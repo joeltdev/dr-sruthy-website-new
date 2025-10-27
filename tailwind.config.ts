@@ -21,23 +21,10 @@ const config: Config = {
           800: '#1e40af',
           900: '#1e3a8a',
         },
-        lavender: {
-          50: '#f6f4fb',
-          100: '#ece8f7',
-          200: '#d9d1ef',
-          300: '#bcaee2',
-          400: '#9c86d4',
-          500: '#8368c6',
-          600: '#6d52b0',
-          700: '#5a4391',
-          800: '#483873',
-          900: '#3b2f5d',
-        },
         pastel: {
           blue: '#e7f0ff',
-          lavender: '#efe9ff',
-          mint: '#e7fff6',
-          rose: '#ffeef4'
+          azure: '#eaf4ff',
+          mint: '#e7fff6'
         }
       },
       boxShadow: {

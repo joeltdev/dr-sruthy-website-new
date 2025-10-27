@@ -7,8 +7,8 @@ export default function About() {
     <section id="about" className="section bg-soft py-8 md:py-10 lg:py-16 relative overflow-hidden">
       <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-br from-emerald-50 via-white to-sky-50" />
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute -top-24 sm:-top-28 md:-top-32 right-0 h-56 sm:h-64 md:h-72 w-56 sm:w-64 md:w-72 rounded-full bg-gradient-to-br from-primary-100/70 to-sky-100/60 blur-3xl" />
-        <div className="absolute -bottom-24 sm:-bottom-28 md:-bottom-32 -left-10 h-48 sm:h-56 md:h-64 w-48 sm:w-56 md:w-64 rounded-full bg-gradient-to-tr from-rose-100/60 to-primary-100/50 blur-3xl" />
+        <div className="absolute -top-24 sm:-top-28 md:-top-32 right-0 h-56 sm:h-64 md:h-72 w-56 sm:w-64 md:w-72 rounded-full bg-gradient-to-br from-primary-50/70 to-sky-50/60 blur-3xl" />
+        <div className="absolute -bottom-24 sm:-bottom-28 md:-bottom-32 -left-10 h-48 sm:h-56 md:h-64 w-48 sm:w-56 md:w-64 rounded-full bg-gradient-to-tr from-sky-50/60 to-primary-50/50 blur-3xl" />
       </div>
       <div className="container-p">
         <h2 className="h-serif text-2xl sm:text-3xl md:text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 pl-0 sm:pl-6 md:pl-8">About Dr. Sruthy Jose</h2>
@@ -23,9 +23,7 @@ export default function About() {
               Personalized Women’s Care
             </span>
             <p className="text-slate-700 text-[15px] md:text-base leading-7">
-              Dr. Sruthy Jose is an experienced Obstetrician and Gynecologist based in Thiruvananthapuram, Kerala, with over a decade of
-              clinical practice in women’s healthcare. She is currently working as a Consultant (Obs. & Gyn.) at Al-Arif Hospital,
-              Ambalathara, Trivandrum, where she provides comprehensive care in obstetrics, gynecology, and minimally invasive surgery.
+              Dr. Sruthy Jose is an experienced Obstetrician and Gynecologist based in Thiruvananthapuram, Kerala, with over a decade of clinical practice in women’s healthcare. She is currently working as a Senior Consultant, Obstetrics and Gynaecology, Cosmopolitan Hospital, Trivandrum., where she provides comprehensive care in obstetrics, gynecology, and minimally invasive surgery.
             </p>
             <p className="text-slate-700 text-[15px] md:text-base leading-7">
               Her approach combines clinical excellence with compassionate care, ensuring the best outcomes for women at every stage of life —
@@ -45,15 +43,15 @@ export default function About() {
                 Laparoscopic gynecologic surgery
               </li>
               <li className="inline-flex items-center gap-2 text-slate-700 text-sm">
-               <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-violet-100 text-violet-700 ring-1 ring-violet-200/70">
- <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-    {/* This path creates the upward-curving (happy) mouth */}
-    <circle cx="12" cy="12" r="10"/>
-    <path d="M8 14s1.5 2 4 2s4-2 4-2"/> 
-    <line x1="9" y1="9" x2="9.01" y2="9"/>
-    <line x1="15" y1="9" x2="15.01" y2="9"/>
-  </svg>
-</span>
+               <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-50 text-sky-600 ring-1 ring-sky-200/70">
+                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    {/* This path creates the upward-curving (happy) mouth */}
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M8 14s1.5 2 4 2s4-2 4-2"/> 
+                    <line x1="9" y1="9" x2="9.01" y2="9"/>
+                    <line x1="15" y1="9" x2="15.01" y2="9"/>
+                  </svg>
+                </span>
                 Adolescent to menopause care
               </li>
               <li className="inline-flex items-center gap-2 text-slate-700 text-sm">
