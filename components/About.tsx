@@ -23,11 +23,10 @@ export default function About() {
               Personalized Women’s Care
             </span>
             <p className="text-slate-700 text-[15px] md:text-base leading-7">
-              Dr. Sruthy Jose is an experienced Obstetrician and Gynecologist based in Thiruvananthapuram, Kerala, with over a decade of clinical practice in women’s healthcare. She is currently working as a Senior Consultant, Obstetrics and Gynaecology, Cosmopolitan Hospital, Trivandrum., where she provides comprehensive care in obstetrics, gynecology, and minimally invasive surgery.
+              Dr. Sruthy Jose serves as a Senior Consultant in the Department of Obstetrics and Gynaecology at Cosmopolitan Hospital, Trivandrum. She manages both morning and evening OPD sessions and handles a wide spectrum of minor and major gynaecological cases.
             </p>
             <p className="text-slate-700 text-[15px] md:text-base leading-7">
-              Her approach combines clinical excellence with compassionate care, ensuring the best outcomes for women at every stage of life —
-              from adolescence to menopause.
+              She specializes in advanced laparoscopic surgeries, both major and minor, including Total Laparoscopic Hysterectomy. In addition to her clinical practice, Dr. Sruthy Jose is actively involved in DNB postgraduate training, conducting clinical instruction and lectures for medical trainees.
             </p>
             <ul className="mt-1 grid sm:grid-cols-2 gap-2.5 clear-both">
               <li className="inline-flex items-center gap-2 text-slate-700 text-sm">

@@ -36,7 +36,7 @@ export default function Experience() {
                 >
                   <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                   <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                  <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">2023 – Present</div>
+                  <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Jan 2023 – Present</div>
                   <div>
                     <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                       <span className="block">Senior Consultant (Obstetrics & Gynaecology)</span>
