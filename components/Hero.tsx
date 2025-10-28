@@ -1,7 +1,6 @@
 "use client"
 
 import Image from 'next/image'
-import { buildWhatsAppLink } from '@/lib/whatsapp'
 import { motion } from 'framer-motion'
 
 export default function Hero() {
@@ -81,19 +80,10 @@ export default function Hero() {
           <div className="mt-6 sm:mt-12 md:mt-10 lg:mt-6 flex flex-wrap items-center justify-start gap-2.5">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 max-[399px]:gap-1 rounded-full bg-gradient-to-r from-primary-600 to-violet-600 text-white hover:text-white focus:text-white active:text-white visited:text-white px-6 sm:px-6 md:px-7 lg:px-8 max-[399px]:px-4 py-3 sm:py-3 md:py-3.5 lg:py-4 max-[399px]:py-2 text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] font-semibold shadow-sm hover:from-primary-700 hover:to-violet-700 active:scale-[0.99] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-primary-400/30 no-underline hover:no-underline"
+              className="inline-flex items-center justify-center gap-2 max-[399px]:gap-1 rounded-full bg-gradient-to-r from-primary-600 to-violet-600 text-white hover:text-white focus:text-white active:text-white visited:text-white w-full sm:w-auto px-8 sm:px-7 md:px-8 lg:px-9 max-[399px]:px-6 py-4 sm:py-3.5 md:py-4 lg:py-5 max-[399px]:py-3 text-[16px] sm:text-[16px] md:text-[17px] lg:text-[18px] font-semibold shadow-sm hover:from-primary-700 hover:to-violet-700 active:scale-[0.99] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-primary-400/30 no-underline hover:no-underline"
             >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
               Book appointment
-            </a>
-            <a
-              href={buildWhatsAppLink('+919496369276', 'Hello, I would like to book an appointment.')}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 max-[399px]:gap-1 rounded-full border border-emerald-600/50 bg-emerald-50 text-emerald-700 px-5 sm:px-6 md:px-6 lg:px-7 max-[399px]:px-4 py-2.5 sm:py-3 md:py-3.5 lg:py-4 max-[399px]:py-2 text-[14px] sm:text-[14px] md:text-[15px] lg:text-[16px] font-semibold shadow-sm hover:bg-emerald-100 active:scale-[0.99] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-emerald-500/20 no-underline hover:no-underline"
-            >
-              <svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M19.11 17.53c-.31-.16-1.82-.9-2.1-1.01c-.28-.1-.48-.16-.67.16c-.19.31-.77 1.01-.94 1.22c-.17.21-.35.24-.66.08c-.31-.16-1.31-.48-2.49-1.52c-.92-.79-1.55-1.76-1.73-2.06c-.18-.31-.02-.48.14-.64c.14-.14.31-.35.45-.52c.15-.17.19-.28.28-.48c.09-.21.05-.39-.02-.54c-.08-.16-.67-1.6-.92-2.19c-.24-.58-.49-.51-.67-.51c-.17 0-.37-.02-.57-.02s-.52.08-.79.39c-.27.31-1.04 1.02-1.04 2.49c0 1.46 1.07 2.87 1.22 3.07c.16.21 2.11 3.23 5.11 4.53c.71.31 1.26.5 1.69.64c.71.23 1.36.2 1.87.12c.57-.08 1.82-.74 2.08-1.46c.26-.72.26-1.33.18-1.46c-.08-.13-.28-.21-.6-.37zM16 3C9.92 3 5 7.92 5 14c0 2.1.63 4.05 1.71 5.68L5 27l7.49-1.96C13.93 25.67 14.95 26 16 26c6.08 0 11-4.92 11-11S22.08 3 16 3z"/></svg>
-              WhatsApp
             </a>
           </div>
 

@@ -36,8 +36,8 @@ export default function Experience() {
                 >
                   <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                   <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                  <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Jan 2023 – Present</div>
-                  <div>
+                  <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Jan 2023 – Present</div>
+                  <div className="mt-1.5 md:mt-0">
                     <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                       <span className="block">Senior Consultant (Obstetrics & Gynaecology)</span>
                       <span className="block text-slate-700 font-normal">Cosmopolitan Hospital, Trivandrum</span>
@@ -45,6 +45,9 @@ export default function Experience() {
                     <ul className="mt-2 md:mt-3 space-y-1 md:space-y-2 text-[15px] md:text-base lg:text-base">
                       <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Provides comprehensive obstetric and gynecologic care</li>
                       <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Focus on minimally invasive gynecologic surgery</li>
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Expertise in high-risk pregnancy management</li>
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Performs major surgeries independently: Cesarean Sections; Abdominal & Vaginal Hysterectomy; Ovarian Cystectomy, Ectopic Surgeries</li>
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Skilled in major & minor laparoscopic surgeries including TLH, sterilization, and cystectomy</li>
                     </ul>
                   </div>
                 </motion.div>
@@ -59,17 +62,15 @@ export default function Experience() {
                 >
                   <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                   <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                  <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Dec 2021 – Present</div>
-                  <div>
+                  <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Dec 2021 – 2023</div>
+                  <div className="mt-1.5 md:mt-0">
                     <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                       <span className="block">Consultant (Obstetrics & Gynecology)</span>
                       <span className="block text-slate-700 font-normal">Al-Arif Hospital, Trivandrum</span>
                     </h3>
                     <ul className="mt-2 md:mt-3 space-y-1 md:space-y-2 text-[15px] md:text-base lg:text-base">
+                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />The senior consultant managing all the patients on an independent basis.</li>
                       <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Independent management of outpatient & inpatient obstetric and gynecological cases</li>
-                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Expertise in high-risk pregnancy management</li>
-                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Performs major surgeries independently: Cesarean Sections; Abdominal & Vaginal Hysterectomy; Ovarian Cystectomy, Ectopic Surgeries</li>
-                      <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Skilled in major & minor laparoscopic surgeries including TLH, sterilization, and cystectomy</li>
                       <li className="flex gap-1.5 md:gap-2 text-slate-700"><CheckIcon />Proficient in obstetric & gynec ultrasound investigations</li>
                     </ul>
                   </div>
@@ -90,8 +91,8 @@ export default function Experience() {
               >
                 <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                 <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">July 2021 – Sept 2021</div>
-                <div>
+                <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">July 2021 – Sept 2021</div>
+                <div className="mt-1.5 md:mt-0">
                   <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                     <span className="block">Fellow in Advanced Laparoscopic Surgery</span>
                     <span className="block text-slate-700 font-normal">Dr. Niteen Ghorpade’s Inspiria Laparoscopy & IVF Centre, Shirdi</span>
@@ -113,8 +114,8 @@ export default function Experience() {
               >
                 <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                 <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Feb 2020 – June 2021</div>
-                <div>
+                <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Feb 2020 – June 2021</div>
+                <div className="mt-1.5 md:mt-0">
                   <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                     <span className="block">Consultant (Obs. & Gyn.)</span>
                     <span className="block text-slate-700 font-normal">KIMS Trust Hospital, Koduvally, Kozhikode</span>
@@ -136,8 +137,8 @@ export default function Experience() {
               >
                 <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                 <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">June 2019 – Jan 2020</div>
-                <div>
+                <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">June 2019 – Jan 2020</div>
+                <div className="mt-1.5 md:mt-0">
                   <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                     <span className="block">Senior Resident (Obs. & Gyn.)</span>
                     <span className="block text-slate-700 font-normal">KMCT Medical College, Kozhikode</span>
@@ -159,8 +160,8 @@ export default function Experience() {
               >
                 <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                 <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Aug 2017 – May 2019</div>
-                <div>
+                <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Aug 2017 – May 2019</div>
+                <div className="mt-1.5 md:mt-0">
                   <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                     <span className="block">Senior Resident</span>
                     <span className="block text-slate-700 font-normal">ESIC Super Specialty Hospital, Kollam</span>
@@ -182,8 +183,8 @@ export default function Experience() {
               >
                 <span className="md:hidden absolute left-3 top-1.5 bottom-0 w-px bg-slate-200" aria-hidden="true"></span>
                 <span className="md:hidden absolute left-2.5 top-0.5 h-2.5 w-2.5 rounded-full bg-primary-500 ring-2 ring-white shadow-sm" aria-hidden="true"></span>
-                <div className="text-[12px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Apr 2010 – July 2012</div>
-                <div>
+                <div className="text-[13px] sm:text-sm md:text-sm lg:text-[13px] text-slate-600 md:pt-1">Apr 2010 – July 2012</div>
+                <div className="mt-1.5 md:mt-0">
                   <h3 className="text-sm sm:text-base md:text-xl font-semibold text-slate-900 leading-tight">
                     <span className="block">Medical Officer</span>
                     <span className="block text-slate-700 font-normal">Thaluk Hospital Thamarassery & CHC Balussery</span>

@@ -29,41 +29,78 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="rounded-3xl bg-white ring-1 ring-slate-900/5 p-6 sm:p-7 md:p-8 h-full shadow-md transition-all md:rounded-2xl md:border md:border-slate-200/70 md:bg-white/80 md:backdrop-blur-md md:shadow-sm md:hover:shadow-md"
+          className="rounded-3xl bg-white ring-1 ring-slate-900/5 p-7 sm:p-8 md:p-10 h-full shadow-md transition-all md:rounded-2xl md:border md:border-slate-200/70 md:bg-white/80 md:backdrop-blur-md md:shadow-sm md:hover:shadow-md"
+          style={{ fontFamily: 'var(--font-inter)' }}
         >
-          <h2 className="h-serif text-xl sm:text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">Get in touch</h2>
-          <p className="mt-2 text-slate-600 text-sm sm:text-base">Reach out for appointments, consultations, or general queries.</p>
+          <h2 className="h-serif text-xl sm:text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700" style={{ fontFamily: 'var(--font-lora)' }}>Get in touch</h2>
+          <p className="mt-2 text-slate-600 text-[15px] sm:text-base">Reach out for appointments, consultations, or general queries.</p>
 
-          <div className="mt-5 grid gap-3 text-[15px] md:text-base">
+          <div className="mt-6 grid gap-3.5 text-[15px] md:text-[17px]">
             <div className="inline-flex items-center gap-3 py-3 text-slate-700">
-              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 ring-1 ring-emerald-200/60">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </span>
-              <p>
-                Puthentharayil House, Janatha Road, <span className="whitespace-nowrap">Kalady, Karamana P.O.</span>, Thiruvananthapuram, Kerala – <span className="whitespace-nowrap">695 002</span>
-              </p>
-            </div>
-
-            <div className="inline-flex items-center gap-3 py-3 text-slate-700">
-              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200/60">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200/60">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.57 2.5a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.67-1.12a2 2 0 0 1 2.11-.45c.8.27 1.64.45 2.5.57A2 2 0 0 1 22 16.92z"/></svg>
               </span>
-              <p>+91 94963 69276 / +91 97473 99276</p>
+              <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-nowrap sm:items-center">
+                <a
+                  href="tel:+919496369276"
+                  className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-[14px] font-medium text-slate-800 hover:bg-slate-50 no-underline"
+                  aria-label="Call +91 94963 69276"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.57 2.5a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.67-1.12a2 2 0 0 1 2.11-.45c.8.27 1.64.45 2.5.57A2 2 0 0 1 22 16.92z"/></svg>
+                  +91 94963 69276
+                </a>
+                <span className="hidden sm:inline text-slate-400">/</span>
+                <a
+                  href="tel:+919747399276"
+                  className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-[14px] font-medium text-slate-800 hover:bg-slate-50 no-underline"
+                  aria-label="Call +91 97473 99276"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.57 2.5a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.67-1.12a2 2 0 0 1 2.11-.45c.8.27 1.64.45 2.5.57A2 2 0 0 1 22 16.92z"/></svg>
+                  +91 97473 99276
+                </a>
+              </div>
             </div>
-
             <div className="inline-flex items-center gap-3 py-3 text-slate-700">
-              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200/60">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m22 6l-10 7L2 6"/></svg>
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 text-sky-700 ring-1 ring-sky-200/60">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
               </span>
-              <p>info@example.com</p>
+              <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-nowrap sm:items-center">
+                <a
+                  href="https://maps.google.com/?q=Thiruvananthapuram%2C%20Kerala"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-[14px] font-medium text-slate-800 hover:bg-slate-50 no-underline"
+                  aria-label="Open location Thiruvananthapuram on Google Maps"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Thiruvananthapuram
+                </a>
+              </div>
             </div>
+            <div className="hidden lg:block h-px bg-slate-200/70 my-1.5" />
           </div>
 
-          <div className="mt-5 flex flex-col sm:flex-row gap-3">
-            <a href={buildWhatsAppLink('+919496369276', 'Hello Doctor, I would like to book an appointment.')} target="_blank" rel="noopener noreferrer" className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full border border-emerald-600/50 bg-emerald-50 text-emerald-700 px-5 py-3 sm:px-6 sm:py-3.5 text-[16px] sm:text-[17px] font-medium hover:bg-emerald-100 active:scale-[0.99] transition-all focus:outline-none focus:ring-4 focus:ring-emerald-500/20 no-underline">
-              <svg width="18" height="18" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M19.11 17.53c-.31-.16-1.82-.9-2.1-1.01c-.28-.1-.48-.16-.67.16c-.19.31-.77 1.01-.94 1.22c-.17.21-.35.24-.66.08c-.31-.16-1.31-.48-2.49-1.52c-.92-.79-1.55-1.76-1.73-2.06c-.18-.31-.02-.48.14-.64c.14-.14.31-.35.45-.52c.15-.17.19-.28.28-.48c.09-.21.05-.39-.02-.54c-.08-.16-.67-1.6-.92-2.19c-.24-.58-.49-.51-.67-.51c-.17 0-.37-.02-.57-.02s-.52.08-.79.39c-.27.31-1.04 1.02-1.04 2.49c0 1.46 1.07 2.87 1.22 3.07c.16.21 2.11 3.23 5.11 4.53c.71.31 1.26.5 1.69.64c.71.23 1.36.2 1.87.12c.57-.08 1.82-.74 2.08-1.46c.26-.72.26-1.33.18-1.46c-.08-.13-.28-.21-.6-.37zM16 3C9.92 3 5 7.92 5 14c0 2.1.63 4.05 1.71 5.68L5 27l7.49-1.96C13.93 25.67 14.95 26 16 26c6.08 0 11-4.92 11-11S22.08 3 16 3z"/></svg>
-              WhatsApp
-            </a>
+          <div className="mt-7">
+            <div className="hidden lg:grid lg:grid-cols-3 gap-3">
+              <div className="flex items-center sm:block gap-3 rounded-xl sm:rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-md p-3.5 sm:p-4">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 ring-1 ring-emerald-200/60">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="M9 12l2 2 4-4"/></svg>
+                </span>
+                <p className="text-[13px] sm:text-[13px] font-medium text-slate-700 sm:mt-2">Confidential consultations</p>
+              </div>
+              <div className="flex items-center sm:block gap-3 rounded-xl sm:rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-md p-3.5 sm:p-4">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-rose-50 text-rose-600 ring-1 ring-rose-200/60">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </span>
+                <p className="text-[13px] sm:text-[13px] font-medium text-slate-700 sm:mt-2">Empathetic support</p>
+              </div>
+              <div className="flex items-center sm:block gap-3 rounded-xl sm:rounded-2xl border border-slate-200/70 bg-white/60 backdrop-blur-md p-3.5 sm:p-4">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-50 text-sky-600 ring-1 ring-sky-200/60">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </span>
+                <p className="text-[13px] sm:text-[13px] font-medium text-slate-700 sm:mt-2">Quick responses</p>
+              </div>
+            </div>
           </div>
         </motion.div>
 
@@ -73,9 +110,10 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55 }}
-          className="rounded-3xl bg-white ring-1 ring-slate-900/5 p-6 sm:p-7 md:p-8 h-full shadow-md transition-all md:rounded-2xl md:border md:border-slate-200/70 md:bg-white/80 md:backdrop-blur-md md:shadow-sm"
+          className="rounded-3xl bg-white ring-1 ring-slate-900/5 p-7 sm:p-8 md:p-10 h-full shadow-md transition-all md:rounded-2xl md:border md:border-slate-200/70 md:bg-white/80 md:backdrop-blur-md md:shadow-sm"
+          style={{ fontFamily: 'var(--font-inter)' }}
         >
-          <h3 className="h-serif text-xl sm:text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">Get Appointment</h3>
+          <h3 className="h-serif text-xl sm:text-2xl md:text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700" style={{ fontFamily: 'var(--font-lora)' }}>Get Appointment</h3>
           <p className="mt-1.5 text-emerald-800 text-sm bg-emerald-50 ring-1 ring-emerald-200/70 rounded-md px-3 py-2">After you submit this form, WhatsApp will open to send your appointment request to the doctor.</p>
           <form className="relative space-y-5 mt-4" onSubmit={handleSubmit}>
             <div className="space-y-1.5">
@@ -88,7 +126,7 @@ export default function Contact() {
                   name="name"
                   type="text"
                   required
-                  className="peer w-full rounded-full pl-14 sm:pl-14 pr-5 py-4 text-[16px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
+                  className="peer w-full rounded-full pl-14 sm:pl-14 pr-5 py-4 text-[16px] sm:text-[17px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
                   placeholder="Your name"
                   aria-label="Your name"
                 />
@@ -105,7 +143,7 @@ export default function Contact() {
                   name="phone"
                   type="tel"
                   required
-                  className="peer w-full rounded-full pl-14 sm:pl-14 pr-5 py-4 text-[16px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
+                  className="peer w-full rounded-full pl-14 sm:pl-14 pr-5 py-4 text-[16px] sm:text-[17px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
                   placeholder="Phone number"
                   aria-label="Phone"
                 />
@@ -121,7 +159,7 @@ export default function Contact() {
                   id="c-message"
                   name="message"
                   rows={4}
-                  className="peer w-full rounded-2xl pl-14 sm:pl-14 pr-5 py-4 text-[16px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none min-h-[140px] md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
+                  className="peer w-full rounded-2xl pl-14 sm:pl-14 pr-5 py-4 text-[16px] sm:text-[17px] text-slate-900 placeholder-slate-500/90 bg-white ring-1 ring-slate-200/80 shadow-md transition-all duration-200 focus:bg-white focus:ring-sky-200 focus:shadow-[0_8px_30px_rgba(2,132,199,0.12)] outline-none min-h-[150px] md:bg-slate-50 md:ring-transparent md:shadow-sm md:focus:ring-0"
                   placeholder="Message"
                   aria-label="Message"
                 />
@@ -132,7 +170,7 @@ export default function Contact() {
             <div className="flex flex-col sm:flex-row gap-3">
               <button
                 type="submit"
-                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-slate-900 text-white px-7 py-4 sm:px-8 sm:py-4 text-[16px] sm:text-[17px] font-semibold shadow-md hover:bg-slate-800 active:scale-[0.99] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-slate-400/25 md:shadow-sm"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-slate-900 text-white px-9 py-5 sm:px-10 sm:py-5 text-[16px] sm:text-[17px] font-semibold shadow-md hover:bg-slate-800 active:scale-[0.99] transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-slate-400/25 md:shadow-sm"
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>

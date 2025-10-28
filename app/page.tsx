@@ -3,7 +3,6 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Education from '@/components/Education'
 import Experience from '@/components/Experience'
-import Trainings from '@/components/Trainings'
 import AreasOfSpecialInterest from '@/components/AreasOfSpecialInterest'
 import Services from '@/components/Services'
 import Contact from '@/components/Contact'
@@ -18,7 +17,6 @@ export default function HomePage() {
       <About />
       <Education />
       <Experience />
-      <Trainings />
       <AreasOfSpecialInterest />
       <Services />
       <ApproachInFocus />
