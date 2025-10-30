@@ -15,7 +15,7 @@ export default function ApproachInFocus() {
           <div className="group relative overflow-hidden rounded-3xl h-[340px] sm:h-[360px] md:h-[420px] lg:h-[460px] bg-white/40 backdrop-blur-md ring-1 ring-slate-200/60 shadow-sm transition-all duration-300 ease-out hover:shadow-md hover:-translate-y-0.5">
             <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/60" aria-hidden />
             <Image
-              src="/doctor-photos/SAN01738.JPG"
+              src="/doctor-photos/san01738.jpg"
               alt="Compassionate care in practice"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
@@ -35,7 +35,7 @@ export default function ApproachInFocus() {
           <div className="group relative overflow-hidden rounded-3xl h-[340px] sm:h-[360px] md:h-[420px] lg:h-[460px] bg-white/40 backdrop-blur-md ring-1 ring-slate-200/60 shadow-sm transition-all duration-300 ease-out hover:shadow-md hover:-translate-y-0.5">
             <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/60" aria-hidden />
             <Image
-              src="/doctor-photos/SAN01791.JPG"
+              src="/doctor-photos/san01791.jpg"
               alt="Attention to detail and precision"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"

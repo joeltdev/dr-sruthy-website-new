@@ -100,7 +100,7 @@ export default function Hero() {
           <div className="group relative overflow-hidden rounded-2xl h-[58vh] min-h-[400px] max-h-[560px] sm:h-[62vh] sm:min-h-[440px] sm:max-h-[600px]">
             <div className="relative w-full h-full rounded-2xl overflow-hidden ring-1 ring-white/60 shadow-md">
               <Image
-                src="/doctor-photos/SAN01581.JPG"
+                src="/doctor-photos/san01581.jpg"
                 alt="Dr. Sruthy Jose"
                 fill
                 sizes="100vw"
@@ -154,7 +154,7 @@ export default function Hero() {
                 <div className="h-[60%] md:h-[65%] w-[70%] md:w-[72%] rounded-full bg-primary-100/25 blur-3xl" />
               </div>
               <Image
-                src="/doctor-photos/SAN01581.png"
+                src="/doctor-photos/san01581.png"
                 alt="Dr. Sruthy Jose portrait"
                 fill
                 className="object-contain object-bottom drop-shadow-xl translate-y-[10px] md:translate-y-[16px] origin-bottom scale-[1.03] md:scale-[1.08]"

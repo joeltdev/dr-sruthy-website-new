@@ -66,7 +66,7 @@ export default function About() {
           <div className="group relative overflow-hidden rounded-3xl h-full min-h-[380px] md:min-h-[420px] lg:min-h-[460px] shadow-md ring-1 ring-black/5">
             <div className="relative w-full h-full rounded-3xl overflow-hidden ring-1 ring-white/70 transition-colors">
               <Image
-                src="/doctor-photos/SAN01647 (2).jpg"
+                src="/doctor-photos/san01647_2.jpg"
                 alt="Dr. Sruthy Jose"
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"

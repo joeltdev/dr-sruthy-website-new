@@ -16,7 +16,7 @@ export default function Experience() {
             {/* Right-aligned feature image above timeline */}
             <div className="order-1 lg:order-2 hidden lg:flex justify-end">
               <Image
-                src="/doctor-photos/newimag.JPG"
+                src="/doctor-photos/newimag.jpg"
                 alt="Dr. Sruthy Jose professional portrait"
                 width={400}
                 height={500}
