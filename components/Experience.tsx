@@ -15,14 +15,16 @@ export default function Experience() {
           <div className="mt-6 md:mt-8 lg:mt-8 lg:grid lg:grid-cols-[1fr,18rem] lg:gap-8 lg:items-start">
             {/* Right-aligned feature image above timeline */}
             <div className="order-1 lg:order-2 hidden lg:flex justify-end">
-              <Image
-                src="/doctor-photos/newimag.jpg"
-                alt="Dr. Sruthy Jose professional portrait"
-                width={400}
-                height={500}
-                className="w-44 sm:w-52 md:w-60 lg:w-72 h-auto aspect-[4/5] lg:aspect-[3/4] object-cover rounded-2xl ring-1 ring-slate-200 shadow-sm mb-4 md:mb-6 lg:mb-0"
-                priority={false}
-              />
+              <div className="w-44 sm:w-52 md:w-60 lg:w-72 aspect-[4/5] lg:aspect-[3/4] overflow-hidden rounded-2xl ring-1 ring-slate-200 shadow-sm mb-4 md:mb-6 lg:mb-0">
+                <Image
+                  src="/doctor-photos/san01778.jpg"
+                  alt="Dr. Sruthy Jose professional portrait"
+                  width={400}
+                  height={500}
+                  className="w-full h-full object-cover object-[50%_115%] scale-[1.04]"
+                  priority={false}
+                />
+              </div>
             </div>
             {/* Two-column list */}
             <div className="mt-6 md:mt-6 lg:mt-0 order-2 lg:order-1">
